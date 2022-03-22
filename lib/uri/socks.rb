@@ -20,7 +20,7 @@ module URI
   rescue
     register_scheme 'SOCKS4', SOCKS4
     register_scheme 'SOCKS', SOCKS
-    register_scheme 'SOCKS5', SOCKS5
+    register_scheme 'SOCKS5', SOCKS
     register_scheme 'SOCKS4A', SOCKS4A
   end
 end
